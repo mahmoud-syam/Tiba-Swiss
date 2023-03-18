@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- File of css -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <script src="https://kit.fontawesome.com/yourcode.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <title>TibaSwiss</title>
+</head>
+
+<body>
+  <!--Start nav-->
+  <div class="mynav">
+    <div class="max-width">
+      <div class="main-logo">
+        <a href="index.html">
+          <div class="logo">
+            <img src="images/logo.jpg" alt="logo">
+          </div>
+        </a>
+        <!-- <div class="main-text">
+          <a href="index.html">Tiba<span>Swiss</span></a>
+        </div> -->
+      </div>
+      <ul class="menu">
+        <li><a href="index.html" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About Us</a></li>
+        <li><a href="#services" class="menu-btn">Our Branches</a></li>
+        <li class="serv-menu">
+          <a href="#gallery-2" class="menu-btn serv-item">Projects <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown__menu">
+            <ul>
+              <li><a href="General_Contracting.html">General Contracting</a></li>
+              <li><a href="solar_energy.html">solar energy</a></li>
+              <!-- <li><a href="Public_Commerce.html">Public Commerce</a></li> -->
+              <li><a href="Prefabricated_Houses.html">Prefabricated Houses</a></li>
+              <!-- <li><a href="laundromats.html">laundromats</a></li> -->
+            </ul>
+          </div>
+
+        </li>
+
+        <li class="ar">
+          <a href="AR/index-AR.html" title="العربية (Ar)"><img src="images/lang/eg.png" alt="العربيه (Ar)"></a>
+          <a href="index.html" title="English (En)"><img src="images/lang/eng.png" alt="English (En)"></a>
+          <a href="GER/index-ger.html" title="Germany (Ger)"><img src="images/lang/germany.png" alt="Germany (Ger)"></a>
+        </li>
+        <li><a href="#contact" class="btn menu-btn">Contact Us</a></li>
+      </ul>
+
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </div>
+  <!--End mynav-->
+  <!--Start Home-->
+
+  <section class="home" id="home">
+    <!-- Start Slider -->
+    <div class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <!-- Slide one -->
+        <div class="slide swiper-slide">
+          <img src="images/Home/1.jpg" alt="" class="image">
+          <div class="overlay"></div>
+          <!-- <div class="max-width">
+            <div class="home-content">
+              <div class="text-1">Tiba Swiss is a global company in the field of contracting</div>
+              <div class="text-2">You can count on us to successfully manage your project</div>
+              <div class="text-3">Tiba Swiss is the official sponsor of the Swiss <span>Tennis Club Biel</span></div>
+            </div>
+          </div> -->
+        </div>
+        <!-- Slide Two -->
+        <div class="slide swiper-slide">
+          <img src="images/Home/2.jpg" alt="" class="image">
+          <div class="overlay"></div>
+          <div class="max-width">
+            <div class="home-content">
+              <!-- <div class="text-1">Tiba Swiss is a global company in the field of contracting</div>
+              <div class="text-2">You can count on us to successfully manage your project</div>
+              <div class="text-3">Tiba Swiss is the official sponsor of the Swiss <span>Tennis Club Biel</span></div> -->
+            </div>
+          </div>
+        </div>
+        <!-- Slide Three -->
+        <div class="slide swiper-slide">
+          <img src="images/Home/3.jpg" alt="" class="image">
+          <div class="overlay"></div>
+          <div class="max-width">
+            <div class="home-content">
+              <!-- <div class="text-1">Tiba Swiss is a global company in the field of contracting</div>
+              <div class="text-2">You can count on us to successfully manage your project</div>
+              <div class="text-3">Tiba Swiss is the official sponsor of the Swiss <span>Tennis Club Biel</span></div> -->
+            </div>
+          </div>
+        </div>
+        <!-- Slide Four -->
+        <div class="slide swiper-slide">
+          <img src="images/Home/4.jpg" alt="" class="image">
+          <div class="overlay"></div>
+          <div class="max-width">
+            <div class="home-content">
+              <!-- <div class="text-1">Tiba Swiss is a global company in the field of contracting</div>
+              <div class="text-2">You can count on us to successfully manage your project</div>
+              <div class="text-3">Tiba Swiss is the official sponsor of the Swiss <span>Tennis Club Biel</span></div> -->
+            </div>
+          </div>
+        </div>
+        <!-- Slide Five -->
+        <div class="slide swiper-slide">
+          <img src="images/Home/5.jpg" alt="" class="image">
+          <div class="overlay"></div>
+          <div class="max-width">
+            <div class="home-content">
+              <!-- <div class="text-1">Tiba Swiss is a global company in the field of contracting</div>
+              <div class="text-2">You can count on us to successfully manage your project</div>
+              <div class="text-3">Tiba Swiss is the official sponsor of the Swiss <span>Tennis Club Biel</span></div> -->
+            </div>
+          </div>
+        </div>
+        <!-- Slide Six -->
+        <div class="slide swiper-slide">
+          <img src="images/Home/6.jpg" alt="" class="image">
+          <div class="overlay"></div>
+          <div class="max-width">
+            <div class="home-content">
+              <!-- <div class="text-1">Tiba Swiss is a global company in the field of contracting</div>
+              <div class="text-2">You can count on us to successfully manage your project</div>
+              <div class="text-3">Tiba Swiss is the official sponsor of the Swiss <span>Tennis Club Biel</span></div> -->
+            </div>
+          </div>
+        </div>
+        <!-- Slide seven -->
+        <div class="slide swiper-slide">
+          <img src="images/Home/7.jpg" alt="" class="image">
+          <div class="overlay"></div>
+          <div class="max-width">
+            <div class="home-content">
+              <!-- <div class="text-1">Tiba Swiss is a global company in the field of contracting</div>
+              <div class="text-2">You can count on us to successfully manage your project</div>
+              <div class="text-3">Tiba Swiss is the official sponsor of the Swiss <span>Tennis Club Biel</span></div> -->
+            </div>
+          </div>
+        </div>
+        <!-- End 7 sliders -->
+      </div>
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination "></div>
+
+    </div>
+    <!-- End Slider -->
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1 text-shadow">Tiba Swiss is a global company in the field of contracting</div>
+        <div class="text-2 text-shadow">You can count on us to successfully manage your project</div>
+        <div class="text-3 text-shadow">Tiba Swiss is the official sponsor of the Swiss <span>Tennis Club Biel</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--end Home-->
+  <!-- about section start  -->
+  <section class="about" id="about">
+    <!-- <div class="overlay"></div> -->
+    <div class="max-width">
+      <h2 class="title">About Us</h2>
+      <div class="about-content">
+        <div class="mycolumn left">
+          <img src="images/about.jpg" alt="">
+        </div>
+        <div class="mycolumn right">
+          <!-- <div class="overlay"></div> -->
+          <div class="text">We have several branches around the world <span class="typing-2"></span></div>
+          <div class="text-check">
+            <div class="overlay"></div>
+            <div class="first-icon icon">
+              <i class="fa fa-check"></i>
+              <p>
+                Thebes Swiss Company is an international contracting and general trading company headquartered in Biel /
+                Bien, Switzerland
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-check"></i>
+              <p>
+                Thebes Swiss Contracting and General Trading Company was established in 2004 in Egypt, in 2016 in
+                Switzerland, in 2020 in Gambia, and in 2021 in Dubai.
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-check"></i>
+              <p>
+                We have several branches around the world to serve its customers and facilitate the buying and selling
+                process and the media.
+              </p>
+            </div>
+            <!-- <div class="icon">
+              <i class="fa fa-check"></i>
+              <p>
+                We excel in various fields such as transportation and sea freight services from Europe, Asia and Africa.
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-check"></i>
+              <p>
+                Owns many commercial agencies such as solar energy panels, electricity storage batteries, tourist
+                boats, fishing boats, automatic car washes, sailboats, yachts, electric trains, and large and small
+                civil planes.
+              </p>
+            </div> -->
+            <!-- <a href="">More about</a> -->
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- End about section -->
+  <!-- Services section start  -->
+  <section class="services" id="services">
+
+    <div class="overlay"></div>
+    <div class="max-width">
+      <h2 class="title">Our branches</h2>
+      <div class="serv-content">
+        <div class="card">
+          <div class="box">
+            <img src="images/branch/Switzerland.png" alt="flag">
+            <div class="text">Switzerland</div>
+            <div class="box">
+              <div class="line">
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                <div class="info">Tiba swiss GmBH Poststrasse17, 2504 Biel. Switzerland</div>
+              </div>
+              <!-- <p>Tiba Swiss Poststrasse 17
+              2504 Biel/Bienne , Switzerland
+            </p> -->
+              <div class="line">
+                <i class="fas fa-phone-volume fa-fw"></i>
+                <div class="info">
+                  <span>0041 32 554 60 95</span>
+                  <span>0041 76 343 59 38</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="images/branch/Egypt.png" alt="flag">
+            <div class="text">Egypt</div>
+            <div class="box">
+              <div class="line">
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                <div class="info">Tiba swiss GmBH Egypt, Sharkia, Kafr Saqr, Al-Nasr neighborhood</div>
+              </div>
+              <!-- <p>Tiba Swiss Poststrasse 17
+              2504 Biel/Bienne , Switzerland
+            </p> -->
+              <div class="line">
+                <i class="fas fa-phone-volume fa-fw"></i>
+                <div class="info">
+                  <span>+201017962909</span>
+                  <span>+201067656918</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="images/branch/United_Arab_Emirates.png" alt="flag">
+            <div class="text">Dubai</div>
+            <div class="box">
+              <div class="line">
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                <div class="info">Tiba swiss GmBH ,Dubai business bay ,<br> park Line toweroffice 2108 . Dubai </div>
+              </div>
+              <!-- <p>Tiba Swiss Poststrasse 17
+              2504 Biel/Bienne , Switzerland
+            </p> -->
+              <div class="line">
+                <i class="fas fa-phone-volume fa-fw"></i>
+                <div class="info">
+                  <span>+917553134080</span>
+                  <span>+971507904499</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="images/branch/Gambia.png" alt="flag">
+            <div class="text">Gambia</div>
+            <div class="box">
+              <div class="line">
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                <div class="info">Tiba swiss GmBH
+                  Coastal Road, West Coast ,The Gambia</div>
+              </div>
+              <!-- <p>Tiba Swiss Poststrasse 17
+              2504 Biel/Bienne , Switzerland
+            </p> -->
+              <div class="line">
+                <i class="fas fa-phone-volume fa-fw"></i>
+                <div class="info">
+                  <span>+220 737 5150</span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="images/branch/China.png" alt="flag">
+            <div class="text">China</div>
+            <div class="box">
+              <div class="line">
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                <div class="info">Coming Soon</div>
+              </div>
+              <!-- <p>Tiba Swiss Poststrasse 17
+              2504 Biel/Bienne , Switzerland
+            </p> -->
+              <div class="line">
+                <i class="fas fa-phone-volume fa-fw"></i>
+                <div class="info">
+                  <span>Coming Soon</span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="images/branch/Brazil.png" alt="flag">
+            <div class="text">Brazil</div>
+            <div class="box">
+              <div class="line">
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                <div class="info">Coming Soon</div>
+              </div>
+              <!-- <p>Tiba Swiss Poststrasse 17
+              2504 Biel/Bienne , Switzerland
+            </p> -->
+              <div class="line">
+                <i class="fas fa-phone-volume fa-fw"></i>
+                <div class="info">
+                  <span>Coming Soon</span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Services Section -->
+
+  <!-- Start Gallery -->
+  <section class="gallery-2" id="gallery-2">
+    <div class="overlay"></div>
+    <div class="max-width">
+      <div class="section-title">
+        <h2 class="title">Projects</h2>
+        <!-- <p>You can trust and rely on us to provide the best solar panels, tourist boats, automatic car washes, sailboats
+          and yachts. We look forward to achieving the same success in all construction sectors during the coming years. -->
+        </p>
+      </div>
+
+      <div class="container">
+        <a href="General_Contracting.html">
+          <h2 class="title-box">General Contracting</h2>
+          <div class="box">
+            <div class="image">
+              <img decoding="async" src="images/Tiba swiss/قسم المقاولات العامة/General Contracting.jpg" alt="" />
+            </div>
+          </div>
+        </a>
+        <a href="solar_energy.html">
+          <h2 class="title-box">solar energy</h2>
+          <div class="box">
+            <div class="image">
+              <img decoding="async" src="images//Tiba swiss/الطاقة الشمسية/solar energy.jpg" alt="" />
+            </div>
+          </div>
+        </a>
+        <!-- <a href="Public_Commerce.html">
+          <h2 class="title-box">Public Commerce</h2>
+          <div class="box">
+            <div class="image">
+              <img decoding="async" src="images/Tiba swiss/التجارة العامة/Public Commerce.jpg" alt="" />
+            </div>
+          </div>
+        </a> -->
+        <a href="Prefabricated_Houses.html">
+          <h2 class="title-box">Prefabricated Houses</h2>
+          <div class="box">
+            <div class="image">
+              <img decoding="async" src="images/Tiba swiss/البيوت الجاهزة/Prefabricated Houses.jpg" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <!-- <a href="laundromats.html">
+          <h3 class="title-box">laundromats</h3>
+          <div class="box">
+            <div class="image">
+              <img decoding="async" src="images/Tiba swiss/قسم المغاسل/laundromats.jpg" alt="" />
+            </div>
+          </div>
+        </a> -->
+        <!-- <a href="#">
+          <h2 class="title-box">Projects</h2>
+          <div class="box">
+            <div class="image">
+              <img decoding="async" src="images/البيوت الجاهزة/البيوت الجاهزة.jpg" alt="" />
+            </div>
+          </div>
+        </a> -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End Gallery -->
+  <!-- contact section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact Us</h2>
+      <!-- Start Map -->
+      <div class="map" style="height: 400px; box-shadow: 0px 2px 15px rgb(0 0 0 / 25%);">
+        <iframe style="
+
+              z-index: 99999;
+              height: 100%;
+              width: 100%;
+              padding: 0px;
+              border-width: 0px;
+              margin: 0px;
+              left: 0px;
+              top: 0px;
+              touch-action: pan-x pan-y; "
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2713.5868685005785!2d7.27446088453197!3d47.14635937915678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e1ed1a39e6829%3A0xb917af9520dbb740!2zUG9zdHN0cmFzc2UgMTdBLCAyNTA0IEJpZWwsINiz2YjZitiz2LHYpw!5e0!3m2!1sar!2seg!4v1673648971911!5m2!1sar!2seg"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="map" style="height: 400px;padding-top: 22px; box-shadow: 0px 2px 15px rgb(0 0 0 / 25%);">
+        <iframe style="
+              z-index: 99999;
+              height: 100%;
+              width: 100%;
+              padding: 0px;
+              border-width: 0px;
+              margin: 0px;
+              left: 0px;
+              top: 0px;
+              touch-action: pan-x pan-y; "
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28884.240734496118!2d55.261837!3d25.18534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f690bc273243b%3A0xd15487170825d1a9!2sTiba%20Swiss%20building%20contract!5e0!3m2!1sen!2sus!4v1672680075846!5m2!1sen!2sus"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <!-- End Map -->
+      <div class="contact-content" style="padding: 30px 0;">
+        <div class="overlay"></div>
+        <div class="mycolumn left">
+          <div class="text">Get in Touch</div>
+          <p>Always keep in touch with us through e-mail or WhatsApp and we will respond to you as soon as possible.</p>
+          <div class="icons">
+            <div class="myrow">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name of Business</div>
+                <div class="sub-title">TIBA SWISS GMBH </div>
+              </div>
+            </div>
+            <div class="myrow">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Place of Business</div>
+                <div class="sub-title">
+                  Poststrasse 17
+                  2504 Biel/Bienne , Switzerland
+                </div>
+              </div>
+            </div>
+            <div class="myrow">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">E-mail</div>
+                <div class="sub-title">info@tibaswiss.ch</div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="social-1">
+            <a href=""><i class="i1 fab fa-youtube"></i></a>
+            <a href=""><i class="i2 fab fa-facebook"></i></a>
+            <a href=""><i class="i5 fab fa-whatsapp"></i></a>
+            <a href=""><i class="i3 fab fa-twitter"></i></a>
+            <a href=""><i class="i4 fab fa-linkedin"></i></a>
+          </div> -->
+        </div>
+        <div class="mycolumn right">
+          <div class="text">Message Us</div>
+          <form action="#">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" placeholder="Name" required>
+              </div>
+              <div class="field email">
+                <input type="text" placeholder="Email" required>
+              </div>
+
+            </div>
+            <div class="field subject">
+              <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="field textarea">
+              <textarea id="" cols="30" myrows="10" placeholder="Message..."></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <div class="scroll">
+    <i class="fa fa-angle-up"></i>
+  </div>
+  <div class="scroll-left">
+    <a href="https://wa.link/1e0co9" class="whatsapp">
+      <!-- <i class="fab fa-whatsapp"></i> -->
+      <img src="images/whatsapp/1.png" alt="">
+    </a>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="box">
+        <h3>TIBA SWISS</h3>
+        <ul class="social">
+          <li>
+            <a href="#" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <!-- <li>
+            <a href="#" class="youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li> -->
+          <li>
+            <a href="https://wa.link/1e0co9" class="whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text">
+          Are you looking for a global company with high experience to successfully build your projects?
+          We are here for you, offering you the best solutions and the latest construction technologies.
+        </p>
+      </div>
+      <div class="box">
+        <ul class="links">
+          <li><a href="General_Contracting.html">General Contracting</a></li>
+          <li><a href="solar_energy.html">solar energy</a></li>
+          <!-- <li><a href="Public_Commerce.html">Public Commerce</a></li> -->
+          <li><a href="Prefabricated_Houses.html">Prefabricated Houses</a></li>
+
+          <!-- <li><a href="laundromats.html">laundromats</a></li> -->
+        </ul>
+      </div>
+      <div class="box">
+        <div class="line">
+          <i class="fas fa-map-marker-alt fa-fw"></i>
+          <div class="info">Poststrasse 17
+            2504 Biel/Bienne , Switzerland</div>
+          <!-- <div class="info">TIBA SWISS GMBH
+            Coastal Road, West Coast ,The Gambia</div> -->
+        </div>
+        <div class="line">
+          <i class="far fa-clock fa-fw"></i>
+          <div class="info">Business Hours: From 8:00 To 17:00</div>
+        </div>
+        <div class="line">
+          <i class="fas fa-phone-volume fa-fw"></i>
+          <div class="info">
+            <span>0041325546095</span>
+            <span>0041763435938</span>
+          </div>
+        </div>
+      </div>
+      <div class="box footer-gallery">
+        <img decoding="async" src="images/Home/qr.jpg" alt="" />
+      </div>
+    </div>
+    <p class="copyright"> <span>2023 All rights reserved. | <span class="far fa-copyright"></span><a href="#"> TibaSwiss
+          GMBH</a></span> </p>
+  </div>
+  <!-- End Footer -->
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    // Automatic swiper
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    // var swiper = new Swiper(".mySwiper", {
+    //   slidesPerView: 1,
+    //   // spaceBetween: 30,
+    //   loop: true,
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //   },
+    //   navigation: {
+    //     nextEl: ".swiper-button-next",
+    //     prevEl: ".swiper-button-prev",
+    //   },
+    // });
+  </script>
+  <!-- Swiper JS -->
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
